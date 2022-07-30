@@ -1999,7 +1999,7 @@ case 'tqtq':
 if (!isRegist) return freply(mess.regist)
 if (isBanned) return freply(mess.banned)
 freply(`• *BIG THANKS TO*
-• RAMDANI OFFICIAL (ME)
+• RAMDANI OFFICIAL
 • ARUL (MY GURU)
 • MHANKBARBAR (MASTAH)
 • APRILIA
@@ -2052,14 +2052,14 @@ case 'jasarunheroku':
 case 'jasarun':
 if (!isRegist) return freply(mess.regist)
 if (isBanned) return freply(mess.banned)
-freply(`*SILAHLAN HUBUNGI*\nhttp://wa.me/6289512545999?text=bang+mau+order+jasa+run+heroku:v`)
+freply(`*SILAHLAN HUBUNGI*\nhttp://wa.me/6285810172953?text=bang+mau+order+jasa+run+heroku:v`)
 break
 //JASA UP HEROKU
 case 'jasaupgithub':
 case 'jasaup':
 if (!isRegist) return freply(mess.regist)
 if (isBanned) return freply(mess.banned)
-freply(`*SILAHLAN HUBUNGI*\nhttp://wa.me/6289512545999?text=bang+mau+order+jasa+up+github:v`)
+freply(`*SILAHLAN HUBUNGI*\nhttp://wa.me/6285810172953?text=bang+mau+order+jasa+up+github:v`)
 break
 //STORE MENU//
 //TOP UP GAME
@@ -3074,12 +3074,12 @@ Ket : Ketik /resetgame , Untuk Mereset Permainan Yg Ada Di Grup!`, text, {contex
 case 'bayar':
 if (!isRegist) return freply(mess.regist)
 if (isBanned) return freply(mess.banned)
-gopeynya = 'https://i.ibb.co/kynNYTh/Ramdani2.jpg'
+gopeynya = '-'
 teksnya = `*[ PAYMENT ]*
-*Gopay :* 089512545999
-*Dana :* 089512545999
-*Ovo :* 089512545999
-*[ © ʙʏ ʀᴀᴍᴅᴀɴɪ ᴏғғɪᴄɪᴀʟ ]*`
+*Gopay :* 085810172953
+*Pulsa :* 085810172953
+*Dana :* 085880124597
+*[ © DannBotZ ]*`
         Ramdani.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
 //--------------------<const menu>--------------------
